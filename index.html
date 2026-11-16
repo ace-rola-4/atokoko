@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>アトココ - AtoKoko</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>アトココ</h1>
+  </header>
+
+  <!-- スポット追加フォーム -->
+  <section class="add-form-container">
+    <input type="text" id="input-name" placeholder="店名（例: カフェ原宿）">
+    <input type="text" id="input-category" placeholder="カテゴリ（例: カフェ）">
+    <button id="add-btn">追加</button>
+  </section>
+
+  <!-- 上半分：マップエリア -->
+  <div id="map"></div>
+
+  <!-- 下半分：お気に入りリストエリア -->
+  <main class="list-container">
+    <h2>お気に入りスポット</h2>
+    <div id="spot-list"></div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

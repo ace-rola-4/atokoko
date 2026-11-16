@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background-color: #f7f9fb;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #ff6b6b;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+header h1 {
+  font-size: 1.2rem;
+}
+
+/* 上半分のマップ設定 */
+#map {
+  height: 45vh;
+  width: 100%;
+}
+
+/* 下半分のリスト設定 */
+.list-container {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.list-container h2 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.spot-card {
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.spot-card h3 {
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.spot-card p {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.spot-tag {
+  display: inline-block;
+  background: #ffe3e3;
+  color: #ff6b6b;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-top: 6px;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background-color: #f7f9fb;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #ff6b6b;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+header h1 {
+  font-size: 1.2rem;
+}
+
+/* フォームのスタイル */
+.add-form-container {
+  display: flex;
+  gap: 6px;
+  padding: 10px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.add-form-container input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.add-form-container button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#map {
+  height: 40vh;
+  width: 100%;
+}
+
+.list-container {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.list-container h2 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.spot-card {
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spot-info h3 {
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.spot-tag {
+  display: inline-block;
+  background: #ffe3e3;
+  color: #ff6b6b;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-top: 4px;
+}
+
+.delete-btn {
+  background: #eee;
+  border: none;
+  color: #666;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
